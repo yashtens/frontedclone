@@ -1,0 +1,236 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family:Gilroy;
+}
+.main
+{
+    height: 100vh;
+    width: 100%;
+   background-color: #ff5200;
+   overflow: auto;
+}
+.navbar
+{
+    height: 80px;
+    width: 99%;
+    background-color:#ff5200;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    
+    border: 1px solid white;
+}
+#swi_logo
+{   
+    height: 40px;
+    width: auto;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+.navbar_logo
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.navbar_link 
+{
+
+    color: white;
+    font-size:20px ;
+    text-align: center;align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 40%;
+    
+}
+#getapp
+{
+    height: 50px;
+    background-color: #ff5200;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+#Sign_in
+{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.titletext
+{
+    display: flex;
+    justify-content: space-between;
+}
+.rightsideimg
+{
+    height: 450px;
+    width: 250px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png);
+    background-size: cover;
+    
+}
+.leftsideimage
+{
+    height: 450px;
+    width: 250px;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png);
+    background-size: cover;
+}
+.head_text
+{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+    margin-top: 20px;
+}
+.textares
+{
+    background: rgb(255, 82, 0);
+    display: flex;
+    
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: space-around;
+    padding: 64px 0px 32px;
+    position: relative;
+}
+#location 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+#iconloc
+{
+    
+    font-size: 30px;
+    padding:10px;
+
+}
+#icondown
+{
+    
+    font-size: 30px;
+    padding: 10px;
+}
+#textloc input
+{
+    height: 47px;
+    width: 220px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 17px;
+}
+.seach_button
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+
+}
+#Search input
+{
+    height: 47px;
+    width: 350px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 17px;
+}
+#iconsearch i
+{
+    font-size: 30px;
+    padding: 10px;
+}
+.cards
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: auto;
+    margin-left: 200px;
+   
+}
+.card{
+    background-color: white;
+    width: 240px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.card-title
+{
+    padding-top:20px ;
+    text-align: center ;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-info
+{
+    
+    text-align: center ;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.dis
+{
+    margin-left: 20px;
+    color: orangered;
+    margin-top: 20px;
+}
+.card-img
+{
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
+
+}

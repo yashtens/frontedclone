@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Management System</title>
+    <link rel="stylesheet" href="project3.css">
+</head>
+<body>
+    <script src="project3.js"></script>
+    <header>
+        <h1>Food Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#inventory">Inventory</a></li>
+                <li><a href="#meal-planner">Meal Planner</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to the Food Management System</h2>
+        <p>Track your food inventory, plan meals efficiently, and explore new recipes.</p>
+        <img src="food-banner.jpg" alt="Food Management" width="100%">
+    </section>
+    
+    <section id="inventory">
+        <h2>Food Inventory</h2>
+        <p>Keep track of your available food items to reduce waste and stay organized.</p>
+        <ul id="food-list"></ul>
+        <input type="text" id="food-item" placeholder="Enter food item">
+        <button onclick="addFoodItem()">Add Item</button>
+    </section>
+    
+    <section id="meal-planner">
+        <h2>Meal Planner</h2>
+        <p>Plan your meals in advance to ensure a balanced diet.</p>
+        <textarea id="meal-plan" placeholder="Plan your meals here..."></textarea>
+    </section>
+    
+    <section id="recipes">
+        <h2>Recipe Suggestions</h2>
+        <p>Discover delicious recipes based on your available ingredients.</p>
+        <button onclick="showRecipes()">Get Recipes</button>
+        <div id="recipe-list"></div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Food Management System. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
